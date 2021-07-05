@@ -1,0 +1,12 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.mango.log.config.TtlMDCAdapterInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.mango.log.config.LogAutoConfigure,\
+com.mango.log.config.FeignConfiguration,\
+com.mango.log.config.Hystrix.HystrixConfiguration,\
+com.mango.log.service.impl.LoggerAuditServiceImpl,\
+com.mango.log.service.impl.DbAuditServiceImpl,\
+com.mango.log.service.impl.UserInfoServiceImpl,\
+com.mango.log.filter.TraceFilter,\
+com.mango.log.aspect.SysLogAspect

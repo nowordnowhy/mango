@@ -2,7 +2,7 @@
 *.class
 
 # Log file
-*.log
+*.com.mango.log
 
 # BlueJ files
 *.ctxt
